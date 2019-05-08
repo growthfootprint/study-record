@@ -1,0 +1,119 @@
+/*
+common.java
+
+Copyright(c) 2007-2019 by Yingzhi Tech
+All Rights Reserved
+
+Created at 2019-05-03 17:03:24
+*/
+/* 
+    Created on : 2019-5-3, 17:03:24
+    Author     : Zhu Mengchao
+*/
+html,body{
+    width:100%;
+    height:100%
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /*    flex-direction: column;上中下*/
+    flex-direction: column;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.bg-color-red{
+    background-color: red;
+}
+
+.flex-content{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    background-color: yellowgreen;
+}
+
+.flex-fooot{
+    display: felx;
+    height:200px;
+    width:100%;
+    background-color: blue;
+}
+
+.flex-align-center{
+    align-items: center;
+}
+
+.flex-margin-left{
+    margin-left: auto;
+}
+
+.font-size{
+    font-size: 14px;
+}
+
+.flex-align-center{
+    justify-content: center;
+    /*     居中*/
+}
+
+.text-center{
+    text-align: center;
+    font-size: 20px;
+}
+.logo1{
+    width:18px;
+}
+.cwnter1{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cwnter1 {
+    background-color: blue;
+    border: black inset;
+    > div{
+        width:60px;
+        height:300px;
+        text-align: center;
+        background-color: blue;
+        border: black inset;
+    }
+}
+
+h1{
+    margin-top: 15px;
+}
+
+.img1{
+    margin-left: -8px;
+    width:240px;
+}
+
+.foot1{
+    width:800px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    background-color: red;
+}
+.img2{
+    width:100%;
+}
